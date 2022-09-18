@@ -1,7 +1,6 @@
 import React from "react";
 // import Skills from "../skills/SkillsAnimation"
 
-
 const AboutAnimation = () => {
   return (
     <>
@@ -13,9 +12,7 @@ const AboutAnimation = () => {
             data-aos="fade-right"
             data-aos-duration="1200"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/light.jpg"
-              })`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + "/light.jpg"})`,
             }}
           ></div>
         </div>
@@ -33,7 +30,9 @@ const AboutAnimation = () => {
               basée en <span className="theme-color"> RDC</span>
             </h5>
             <p>
-            Nous sommes une société ouverte et dynamique offrant un centre communautaire pour tous les artistes et le public amateur d'art. Notre belle galerie est située au centre et facilement accessible.
+              Nous sommes une société ouverte et dynamique offrant un centre
+              communautaire pour tous les artistes et le public amateur d'art.
+              Notre belle galerie est située au centre et facilement accessible.
             </p>
           </div>
           <div className="extra">
@@ -83,11 +82,10 @@ const AboutAnimation = () => {
               </ul>
             </div>
             {/* End list */}
-            
           </div>
         </div>
       </div>
-       {/* <Skills />  */}
+      {/* <Skills />  */}
     </>
   );
 };
